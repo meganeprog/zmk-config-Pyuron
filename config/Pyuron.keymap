@@ -4,6 +4,9 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define MOUSE 6
+#define JP_YEN          0x89              // ¥
+#define JP_PIPE         LS(0x89)          // |
+#define JP_UNDERSCORE   LS(0x87)          // _
 
 &mt {
     flavor = "balanced";
@@ -96,8 +99,8 @@
         MOUSE {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &mkp MB1  &mkp MB2  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &mkp MB3    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans
             >;
         };
