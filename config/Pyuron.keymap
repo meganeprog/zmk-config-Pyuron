@@ -53,10 +53,10 @@
 
         layer_1 {
             bindings = <
-&kp N1  &kp N2            &kp N3       &kp N4             &kp N5          &kp N6          &kp N7         &kp N8       &kp N9            &kp N0
-&trans  &kp LEFT_BRACKET  &kp JP_PIPE  &kp JP_UNDERSCORE  &kp LANGUAGE_2  &kp LANGUAGE_1  &kp SEMICOLON  &kp AT_SIGN  &kp LEFT_BRACKET  &trans
-&trans  &trans            &trans       &kp JP_YEN         &trans          &trans          &trans         &trans       &kp SQT           &trans
-&trans  &trans            &trans       &trans             &trans          &trans          &trans         &trans       &trans            &trans
+&kp N1  &kp N2            &kp N3       &kp N4             &kp N5          &kp N6          &kp N7         &kp N8         &kp N9            &kp N0
+&trans  &kp LEFT_BRACKET  &kp JP_PIPE  &kp JP_UNDERSCORE  &kp LANGUAGE_2  &kp LANGUAGE_1  &kp SEMICOLON  &kp BACKSLASH  &kp LEFT_BRACKET  &trans
+&trans  &trans            &trans       &kp JP_YEN         &trans          &trans          &trans         &trans         &kp SQT           &trans
+&trans  &trans            &trans       &trans             &trans          &trans          &trans         &trans         &trans            &trans
             >;
         };
 
