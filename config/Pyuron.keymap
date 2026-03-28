@@ -36,6 +36,16 @@
     };
 };
 
+&trackball_listener_R {
+    scroller {
+        layers = <SCROLL>;
+        input-processors = <
+            &zip_xy_to_scroll_mapper
+            &zip_scroll_scaler 3 2
+        >;
+    };
+};
+
 / {
     behaviors {
     };
