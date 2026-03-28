@@ -44,6 +44,7 @@
             codes = <INPUT_REL_HWHEEL>;
             track-remainders;
         };
+
         zip_scroll_y_scaler: zip_scroll_y_scaler {
             compatible = "zmk,input-processor-scaler";
             #input-processor-cells = <2>;
@@ -121,7 +122,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB1  &mkp MB2  &trans    &mkp MB5
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &mkp MB3  &mkp MB3
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &mkp MB3  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans    &trans
             >;
         };
