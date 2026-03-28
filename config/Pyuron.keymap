@@ -35,7 +35,7 @@
         #binding-cells = <2>;
         tapping-term-ms = <200>;
     };
-    
+
     input_processors {
         zip_scroll_x_scaler: zip_scroll_x_scaler {
             compatible = "zmk,input-processor-scaler";
@@ -113,7 +113,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans    &trans
 &trans  &trans  &trans  &trans  &trans  &mkp MB4  &mkp MB1  &mkp MB2  &trans    &mkp MB5
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &mkp MB3  &mkp MB3
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &mkp MB3  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans    &trans    &trans
             >;
         };
