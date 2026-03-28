@@ -4,6 +4,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <behaviors/input_gestures_accel.dtsi>
 
 #define MOUSE 5
 #define SCROLL 6
@@ -35,6 +36,16 @@
 
         #binding-cells = <2>;
         tapping-term-ms = <200>;
+    };
+
+    tpad0: tpad0 {
+        compatible = "zmk,input-listener";
+        status = "okay";
+        device = <&glidepoint>;
+        input-processors = <
+            &pointer_accel      // Acceleration processor
+            &zip_xy_transform
+        >;
     };
 
     input_processors {
