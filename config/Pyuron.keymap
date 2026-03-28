@@ -38,6 +38,14 @@
 
 / {
     behaviors {
+        WheelScroll: WheelScroll {
+            compatible = "zmk,behavior-sensor-rotate-var";
+            label = "WHEELSCROLL";
+            #sensor-binding-cells = <SCROLL>;
+            bindings = <&msc>, <&msc>;
+
+            tap-ms = <20>;
+        };
     };
 
     keymap {
