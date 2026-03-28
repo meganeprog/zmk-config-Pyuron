@@ -60,8 +60,7 @@
         layers = <SCROLL>;
         input-processors = <
             &zip_xy_to_scroll_mapper
-            &zip_scroll_x_scaler 0 1
-            &zip_scroll_y_scaler 1 4
+            &zip_scroll_scaler 1 4
         >;
     };
 };
