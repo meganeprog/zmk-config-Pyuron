@@ -101,14 +101,6 @@
 
 / {
     behaviors {
-        ek: eisu_kana {
-            compatible = "zmk,behavior-tap-dance";
-            label = "Eisu / Kana";
-            #binding-cells = <0>;
-            bindings = <&mt LEFT_CONTROL LANGUAGE_2>, <&kp LANGUAGE_1>;
-
-            tapping-term-ms = <250>;
-        };
         hmr_r: hmr_r {
             compatible = "zmk,behavior-hold-tap";
             label = "HMR_R";
@@ -167,7 +159,7 @@
         default_layer {
             bindings = <
 &kp Q             &kp W                  &kp E    &kp R                   &kp T        &kp Y                &kp U          &kp I        &kp O        &kp P
-&kp A             &kp S                  &kp D    &kp F                   &kp G        &kp H                &kp J          &kp K        &lt 5 L      &kp MINUS
+&kp A             &kp S                  &kp D    &kp F                   &kp G        &kp H                &kp J          &kp K        &kp L      &kp MINUS
 &mt LEFT_SHIFT Z  &kp X                  &kp C    &kp V                   &kp B        &mo 4                &kp LANG1      &kp N        &kp M        &kp COMMA
 &kp DOT           &mt RIGHT_SHIFT SLASH  &kp TAB  &mt LEFT_CONTROL LANG2  &lt 1 SPACE  &mt LEFT_ALT DELETE  &kp BACKSPACE  &lt 2 ENTER  &lt 3 LANG1  &mt LEFT_WIN ESCAPE
             >;
