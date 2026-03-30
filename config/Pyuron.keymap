@@ -20,32 +20,32 @@
     combos {
         compatible = "zmk,combos";
 
-        MB1 {
+        combo_mb1 {
             bindings = <&mkp MB1>;
             key-positions = <16 17>;
         };
 
-        MB2 {
+        combo_mb2 {
             bindings = <&mkp MB2>;
             key-positions = <17 18>;
         };
 
-        MB3 {
+        combo_mb3 {
             bindings = <&mkp MB3>;
             key-positions = <16 18>;
         };
 
-        Tab {
+        combo_tab {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
         };
 
-        lang2 {
+        combo_lang2 {
             bindings = <&kp LANGUAGE_2>;
             key-positions = <21 22>;
         };
 
-        lang1 {
+        combo_lang1 {
             bindings = <&kp LANG1>;
             key-positions = <29 30>;
         };
