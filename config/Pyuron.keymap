@@ -20,21 +20,6 @@
     combos {
         compatible = "zmk,combos";
 
-        combo_mb1 {
-            bindings = <&mkp MB1>;
-            key-positions = <16 17>;
-        };
-
-        combo_mb2 {
-            bindings = <&mkp MB2>;
-            key-positions = <17 18>;
-        };
-
-        combo_mb3 {
-            bindings = <&mkp MB3>;
-            key-positions = <16 18>;
-        };
-
         combo_tab {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
@@ -53,11 +38,6 @@
         combo_esc {
             bindings = <&kp ESC>;
             key-positions = <1 2>;
-        };
-
-        combo_scr {
-            bindings = <&mo 6>;
-            key-positions = <16 17 18>;
         };
     };
 
@@ -171,19 +151,19 @@
 
         default_layer {
             bindings = <
-&kp Q                 &kp W                   &kp E              &kp R                   &kp T        &kp Y           &kp U               &kp I               &kp O                    &kp P
-&hmr_l2 LEFT_SHIFT A  &hmr_l2 LEFT_CONTROL S  &hmr_l LEFT_ALT D  &hmr_l LEFT_WIN F       &kp G        &kp H           &hmr_r RIGHT_WIN J  &hmr_r RIGHT_ALT K  &hmr_r2 RIGHT_CONTROL L  &hmr_r2 RIGHT_SHIFT MINUS
-&kp Z                 &kp X                   &kp C              &kp V                   &kp B        &mo 4           &mo 4               &kp N               &kp M                    &kp COMMA
-&kp DOT               &kp SLASH               &kp TAB            &mt LEFT_CONTROL LANG2  &lt 1 SPACE  &kp LS(DELETE)  &kp BACKSPACE       &lt 2 ENTER         &kp LANG1                &kp ESC
+&kp Q                         &kp W                      &kp E          &kp R              &kp T        &kp Y           &kp U          &kp I        &kp O       &kp P
+&kp A                         &kp S                      &kp D          &kp F              &kp G        &kp H           &kp J          &lt 6 RS(K)  &lt 5 L     &kp MINUS
+&hmr_l2 LEFT_SHIFT Z          &hmr_l2 LEFT_CONTROL X     &hmr_l LALT C  &hmr_l LEFT_WIN V  &kp B        &mo 4           &mo 4          &kp N        &hmr_r M M  &hmr_r RIGHT_ALT COMMA
+&hmr_r2 RIGHT_CONTROL PERIOD  &hmr_r2 RIGHT_SHIFT SLASH  &kp TAB        &kp LANGUAGE_2     &lt 1 SPACE  &kp LS(DELETE)  &kp BACKSPACE  &lt 2 ENTER  &kp LANG1   &kp ESC
             >;
         };
 
         layer_1 {
             bindings = <
-&kp N1                 &kp N2                        &kp N3                   &kp N4                     &kp N5  &kp N6            &kp N7                           &kp N8                             &kp N9                 &kp N0
-&hmr_l LEFT_WIN EQUAL  &hmr_l LEFT_ALT LEFT_BRACKET  &hmr_l2 LEFT_SHIFT INT3  &hmr_l2 LEFT_CONTROL INT1  &trans  &kp SINGLE_QUOTE  &hmr_r2 RIGHT_CONTROL SEMICOLON  &hmr_r2 RIGHT_SHIFT RIGHT_BRACKET  &hmr_r RIGHT_ALT NUHS  &trans
-&trans                 &trans                        &trans                   &trans                     &trans  &trans            &trans                           &trans                             &kp SQT                &trans
-&trans                 &trans                        &trans                   &trans                     &trans  &trans            &trans                           &lt 3 RET                          &trans                 &trans
+&kp N1                    &kp N2                        &kp N3                   &kp N4                     &kp N5  &kp N6            &kp N7                           &kp N8                             &kp N9                 &kp N0
+&hmr_l2 LEFT_SHIFT EQUAL  &hmr_l LEFT_ALT LEFT_BRACKET  &hmr_l2 LEFT_SHIFT INT3  &hmr_l2 LEFT_CONTROL INT1  &trans  &kp SINGLE_QUOTE  &hmr_r2 RIGHT_CONTROL SEMICOLON  &hmr_r2 RIGHT_SHIFT RIGHT_BRACKET  &hmr_r RIGHT_ALT NUHS  &trans
+&trans                    &trans                        &trans                   &trans                     &trans  &trans            &trans                           &trans                             &kp SQT                &trans
+&trans                    &trans                        &trans                   &trans                     &trans  &trans            &trans                           &lt 3 RET                          &trans                 &trans
             >;
         };
 
