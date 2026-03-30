@@ -180,10 +180,10 @@
 
         layer_1 {
             bindings = <
-&kp N1                 &kp N2                        &kp N3                   &kp N4                     &kp N5  &kp N6            &kp N7                           &kp N8                         &kp N9                         &kp N0
-&hmr_l LEFT_WIN EQUAL  &hmr_l LEFT_ALT LEFT_BRACKET  &hmr_l2 LEFT_SHIFT INT3  &hmr_l2 LEFT_CONTROL INT1  &trans  &kp SINGLE_QUOTE  &hmr_r2 RIGHT_CONTROL SEMICOLON  &hmr_r2 RIGHT_SHIFT BACKSLASH  &hmr_r RIGHT_ALT LEFT_BRACKET  &trans
-&trans                 &trans                        &trans                   &trans                     &trans  &trans            &trans                           &trans                         &kp SQT                        &trans
-&trans                 &trans                        &trans                   &trans                     &trans  &trans            &trans                           &lt 3 RET                      &trans                         &trans
+&kp N1                 &kp N2                        &kp N3                   &kp N4                     &kp N5  &kp N6            &kp N7                           &kp N8                             &kp N9                 &kp N0
+&hmr_l LEFT_WIN EQUAL  &hmr_l LEFT_ALT LEFT_BRACKET  &hmr_l2 LEFT_SHIFT INT3  &hmr_l2 LEFT_CONTROL INT1  &trans  &kp SINGLE_QUOTE  &hmr_r2 RIGHT_CONTROL SEMICOLON  &hmr_r2 RIGHT_SHIFT RIGHT_BRACKET  &hmr_r RIGHT_ALT NUHS  &trans
+&trans                 &trans                        &trans                   &trans                     &trans  &trans            &trans                           &trans                             &kp SQT                &trans
+&trans                 &trans                        &trans                   &trans                     &trans  &trans            &trans                           &lt 3 RET                          &trans                 &trans
             >;
         };
 
