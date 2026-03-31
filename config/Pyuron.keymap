@@ -23,16 +23,19 @@
         combo_tab {
             bindings = <&kp TAB>;
             key-positions = <11 12>;
+            timeout-ms = <60>;
         };
 
         combo_lang2 {
             bindings = <&kp LANGUAGE_2>;
             key-positions = <12 13>;
+            timeout-ms = <60>;
         };
 
         combo_lang1 {
             bindings = <&kp LANG1>;
             key-positions = <16 17>;
+            timeout-ms = <60>;
         };
 
         combo_esc {
